@@ -1,0 +1,95 @@
+c的基本语法
+    语句的末尾以;号结束
+    单行注释/
+    多行注释/* */
+    使用{}吧语法结构分成组
+
+编译c代码
+    gcc -Wall 文件名 目标文件
+
+c中的转义字符
+    \' == ' (Single Quote or Apostrophe)
+    \" == " 
+    \? == ? (Questio Mark)
+    \\ == \ (Backslash)
+    \a == 响铃 (Alert or Bell)
+    \b == 退格 (Backspace)
+    \f == 分页符 (Form Feed)
+    \n == 换行符 (Line Feed)
+    \r == 回车 (Carriage return)
+    \t == 水平制表符 (Horizontal Tab)
+    \v == 垂直指标符 (Vertival Tab)
+
+格式化字符串
+    %s == String
+    %c == Character
+    %d == Integer
+    %f == Floating
+
+常量
+    -常量(Constant)是程序中最基本的元素,
+    -字符常量(Character)
+    -整数常量(Integer)
+    -浮点型常量(Floating Point)
+
+变量
+    -变量(Variable)是编程语言中重要的概念之一
+    -变量时计算机存储器中的一块命名空间
+    -字符型(char)
+    -整型(int)
+    -单精度浮点型(float)
+    -双精度浮点型(double)
+    -高精度浮点型(long double)
+
+声明和定义
+    -C语言中的声明(Declaration)有变量声明,函数声明,和类型声明
+    -如果一个变量或函数的声明要求编译器为它分配存储空间
+    -那么也可以成为定义(Definition)
+    -因此定义时声明的一种
+    -声明和语句类似,也是以;号结尾
+    -但是在语法上声明和局域是有区别的
+    -语句只能出现在{}括号中
+    -声明既可以出现在{}中也可以出现在所有{}之外
+
+C99规定的关键字
+    -auto
+    -break
+    -case
+    -char
+    -const
+    -continue
+    -default
+    -do
+    -double
+    -else
+    -enum
+    -extern
+    -float
+    -for
+    -goto
+    -if
+    -inline
+    -int
+    -long
+    -register
+    -restrict
+    -return
+    -short
+    -signed
+    -sizeof
+    -static
+    -struct
+    -switch
+    -typedef
+    -union
+    -unsigned
+    -void
+    -volatile
+    -while
+    -_Bool
+    -_Complex
+    -_Imaginarg
+
+
+
+
